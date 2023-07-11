@@ -1,6 +1,6 @@
 {
   "typescript": true,
-  "commands": ["@adonisjs/core/commands"],
+  "commands": ["@adonisjs/core/commands/main"],
   "providers": [
     "@adonisjs/core/providers/app_provider",
     "@adonisjs/core/providers/http_provider",
