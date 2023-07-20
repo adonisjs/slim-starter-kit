@@ -2,7 +2,7 @@ import env from '#start/env'
 import app from '@adonisjs/core/services/app'
 import { defineConfig, targets } from '@adonisjs/core/logger'
 
-export default defineConfig({
+const loggerConfig = defineConfig({
   default: 'app',
 
   /**
@@ -23,3 +23,9 @@ export default defineConfig({
     },
   },
 })
+
+export default loggerConfig
+
+declare module '@adonisjs/core/types' {
+  export interface LoggersList extends InferLoggers<typeof loggerConfig> {}
+}

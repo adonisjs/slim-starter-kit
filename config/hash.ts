@@ -1,6 +1,6 @@
 import { defineConfig } from '@adonisjs/core/hash'
 
-export default defineConfig({
+const hashConfig = defineConfig({
   default: 'scrypt',
 
   list: {
@@ -45,3 +45,9 @@ export default defineConfig({
     },
   },
 })
+
+export default hashConfig
+
+declare module '@adonisjs/core/types' {
+  export interface HashersList extends InferHashers<typeof hashConfig> {}
+}
