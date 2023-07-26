@@ -5,7 +5,10 @@
     "@adonisjs/core/providers/app_provider",
     "@adonisjs/core/providers/http_provider",
     "@adonisjs/core/providers/hash_provider",
-    "@adonisjs/core/providers/repl_provider",
+    {
+      "file": "@adonisjs/core/providers/repl_provider",
+      "environment": "repl"
+    },
     "./providers/app_provider.js"
   ],
   "preloads": ["#start/routes", "#start/kernel"],
