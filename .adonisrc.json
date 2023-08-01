@@ -7,7 +7,7 @@
     "@adonisjs/core/providers/hash_provider",
     {
       "file": "@adonisjs/core/providers/repl_provider",
-      "environment": "repl"
+      "environment": ["repl", "test"]
     },
     "./providers/app_provider.js"
   ],
