@@ -30,7 +30,6 @@ export default defineConfig({
       environment: ['repl', 'test'],
     },
     () => import('./providers/app_provider.js'),
-    () => import('@adonisjs/session/session_provider'),
   ],
 
   /*
