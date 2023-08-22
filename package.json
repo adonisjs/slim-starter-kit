@@ -26,7 +26,7 @@
     "#config/*": "./config/*.js"
   },
   "devDependencies": {
-    "@adonisjs/assembler": "^6.1.3-19",
+    "@adonisjs/assembler": "^6.1.3-21",
     "@adonisjs/eslint-config": "^1.1.8",
     "@adonisjs/prettier-config": "^1.1.8",
     "@adonisjs/tsconfig": "^1.1.8",
@@ -42,7 +42,7 @@
     "typescript": "^5.1.6"
   },
   "dependencies": {
-    "@adonisjs/core": "^6.1.5-22",
+    "@adonisjs/core": "^6.1.5-23",
     "reflect-metadata": "^0.1.13"
   },
   "eslintConfig": {
