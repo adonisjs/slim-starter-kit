@@ -28,7 +28,6 @@ export default defineConfig({
       file: () => import('@adonisjs/core/providers/repl_provider'),
       environment: ['repl', 'test'],
     },
-    () => import('./providers/app_provider.js'),
   ],
 
   /*
