@@ -47,7 +47,7 @@
     "typescript": "^5.3.3"
   },
   "dependencies": {
-    "@adonisjs/core": "^6.1.5-37",
+    "@adonisjs/core": "^6.1.5-38",
     "reflect-metadata": "^0.2.1"
   },
   "eslintConfig": {
