@@ -19,5 +19,5 @@ By executing the following command, you can create a new app using the `slim` st
 - Set the app key using the `node ace generate:key` command.
 
 ```sh
-npm init adonisjs -- -K="slim"
+npm init adonisjs@latest hello-world -- -K=slim
 ```
